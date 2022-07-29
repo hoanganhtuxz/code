@@ -1,0 +1,332 @@
+
+
+  
+  .jMhaxE {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    color: rgb(155, 203, 250);
+    mix-blend-mode: normal;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.dAHnJY {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 56px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 8px;
+}
+.dryRrI {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.6);
+    mix-blend-mode: normal;
+    margin-bottom: 24px;
+}
+.Authorization--LoginForm {
+    width: 360px;
+    align-self: center;
+    margin:auto ;
+
+}
+.Authorization--Header{
+    display: flex;
+    justify-content: flex-end;
+}
+.Authorization--EndSide {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #101012;
+    padding: 24px;
+    height: 100%;
+    right: 0;
+    min-width: 568px;
+    width: 568px;
+}
+.jMhaxE:hover {
+    text-decoration: none;
+}
+.jMhaxE {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    color: rgb(155, 203, 250);
+    mix-blend-mode: normal;
+    text-decoration: none;
+    cursor: pointer;
+}.Authorization--Footer {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    color: hsla(0,0%,100%,.6);
+    mix-blend-mode: normal;
+}
+
+
+.TextField.TextField_view_filled .TextField-Control {
+    padding: 24px 12px 10px;
+}
+.TextField-Control {
+    padding: 8px 12px;
+    border: none;
+    background: rgba(139, 139, 139, 0.17);
+    color: white;
+    line-height: 16px;
+    width: 100%;
+    min-width: 100px;
+    box-sizing: border-box;
+    outline: none;
+}
+ .TextField-Control {
+    padding: 24px 12px 10px;
+}
+.Authorization--StartSide {
+    overflow-y: scroll;
+    flex: 1 1 auto;
+    height: 100%;
+    background: linear-gradient(130.94deg,#97a4af,#c7cdd4);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 40px;
+}
+.Authorization--StartSide__title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 56px;
+    color: #fff;
+    margin-bottom: 8px;
+    margin-top: 28px;
+}
+.Authorization--StartSide__description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    width: 600px;
+    color: rgba(0,0,0,.74);
+    margin-bottom: 32px;
+}
+.htLRdL {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 16px;
+    padding: 16px;
+    width: 370px;
+    margin-bottom: 24px;
+    margin-left: -16px;
+    overflow: hidden;
+    position: relative;
+    /* transition: 0.2s; */
+}
+.hGiyau {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+    mix-blend-mode: normal;
+    margin-bottom: 24px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.ezbwkG {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+    mix-blend-mode: normal;
+    margin-bottom: 0px;
+    color: rgb(0, 0, 0);
+    cursor: unset;
+}
+.jGLdVH {
+    margin: 10px 0px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.74);
+}
+.Authorization--product-img{
+  width: 710px;
+  position: absolute;
+  top: 0;
+  right: 25%;
+  animation-name: topss;
+  animation-duration: 4s;
+  transition: 4s
+}
+@keyframes topss{
+  from {transform: translateY(-30px)}
+    to {transform: translateY(0%);}
+}
+.Authorization--Footer__support{
+  margin-bottom: 16px;
+}
+.timline{
+  position: absolute;
+  bottom: 0;
+  height: 3.6px;
+  width: 100%;
+  background: rgb(139, 139, 139);
+  right: 0;
+  left: 0;
+}
+.timline--go{
+  position: absolute;
+  bottom: 0;
+  height: 3.6px;
+  width: 110%;
+  background: rgb(239, 231, 0);
+  right: 0;
+  left: 0;
+  animation: alternate1 10.5s linear infinite;
+}
+@keyframes alternate1 {
+  0% {
+      left: -110%;
+  }
+  100% {
+      left: 100%;
+  }
+}
+.cus{
+  background: hsla(0,0%,100%,0.08);
+  position: relative;
+  border-radius: 8px;
+  outline: none;
+  padding: 5px 10px;
+}
+.box-check{
+  top: 0px;
+    width: 47px;
+    height: 33px;
+  border-radius: 8px;
+    background: rgba(141,202,254,0.12);
+ 
+}
+.tabel-active{
+  color: #8dcafe;
+}
+.Tabs-Scroller{
+  position: absolute; 
+  transition: all .3s cubic-bezier(.4,0,.2,1) 0ms;
+}
+.isActive-right{
+  right: 0px;
+}
+.isActive-left{
+  left: 0px;
+}
+.boPkKw {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 14px;
+  padding-left: 12px;
+  color: rgb(252, 83, 78);
+  mix-blend-mode: normal;
+}
+.input-data-1{
+  position: relative;
+}
+.input-data-2{
+  position: relative;
+}
+.cus-text-1{
+  position: absolute;
+  left: 15px;
+  bottom: 45%;
+  color: rgb(169, 169, 169);
+}
+.cus-text-2{
+  position: absolute;
+  left: 15px;
+  bottom: 52%;
+  color: rgb(169, 169, 169);
+}
+.input-data-1 .input-1:focus ~ .cus-text-1
+{
+transform: translateY(-12px);
+color: rgb(104, 220, 255);
+}
+.input-data-2 .input-2:focus ~ .cus-text-2{
+  transform: translateY(-12px);
+  color: rgb(104, 220, 255);
+  }
+  .cus-text-1:valid ~ .input-1{
+    transform: translateY(-12px);
+    color: rgb(104, 220, 255);
+  }
+  .input-data-1 .input-1::after{
+  content: '';
+  border-bottom: 2px solid rgb(104, 220, 255);
+  width: 100%;
+  height: 100%;
+}
+  .isACtivelabel-2{
+    transform: translateY(-12px);
+    position: absolute;
+    left: 15px;
+    bottom: 52%;
+  }
+  .isACtivelabel-1{
+    transform: translateY(-12px);
+    position: absolute;
+    left: 15px;
+    bottom: 45%;
+  }
+  .input-1:focus ~ .bottom-1{
+    display: block;
+  }
+  .input-2:focus ~ .bottom-2{
+    display: block;
+  }
+  .bottom-1{
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    left: 0;
+    bottom: 11px;
+    background: rgb(104, 220, 255);
+    display: none;
+    border-bottom-left-radius: 900px 200px;
+    border-bottom-right-radius: 900px 200px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .bottom-2{
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    left: 0;
+    bottom: 25px;
+    background: rgb(104, 220, 255);
+    display: none;
+    border-bottom-left-radius: 900px 200px;
+    border-bottom-right-radius: 900px 200px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  @keyframes widthss{
+
+  }
+.LoginForm__rememberMe a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #9bcbfa;
+  mix-blend-mode: normal;
+  text-decoration: none;
+  cursor: pointer;
+}
